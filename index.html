@@ -3,10 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Sign-up Form</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
+  <div class="main">
+    <div class="left">
+      <div>
+        <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="The Odin Project Logo">
+      <h1>Sign-up Form</h1>
+    </div>
+    </div>
+    <div class="right">
+      <div class="header">
+        <p class="p1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+        <p class="p2">You <em>know</em> you want to.</p>
+      </div>
+
+      <div class="input">
+        <p>Let's do this!</p>
+        <form id="form">
+          <label for="firstname">First Name<input type="text" id="firstname" name="firstname" required></label>
+          <label for="lastname">Last Name<input type="text" id="lastname" name="lastname" required></label>
+          <label for="email">Email<input type="text" id="email" name="email" required></label>
+          <label for="phonenumber">Phone Number<input type="text" id="phonenumber" name="phonenumber" required></label>
+          <label for="password">Password<input type="password" id="password" name="password" required></label>
+          <label for="confirmpassword">Confirm Password<input type="password" id="confirmpassword" name="confirmpassword" required></label>
+        </form>
+      </div>
+
+      <div class="submit-section">
+        <div>
+          <button type="submit" form="form">Create Account</button>
+          <p>Already have an account? <a href>Login</a></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="credits">
+      <p>Photo by Andrea Carmello on Unsplash</p>
+    </div>
+  </div>
 </body>
 </html>
